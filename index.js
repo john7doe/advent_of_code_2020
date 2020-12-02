@@ -30,7 +30,7 @@ async function dec1() {
     data.forEach((m,_) => {
       const rest = 2020 - n - m
       if (data.has(rest)) {
-        console.log(`3: $${n} ${m}, ${rest}: ${n * m * rest}`)
+        console.log(`3: ${n} ${m}, ${rest}: ${n * m * rest}`)
       }
     })
   })
